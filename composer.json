@@ -1,0 +1,17 @@
+{
+    "name": "webdevbr/pagseguro",
+    "description": "Componente para trabalhar com a API do PagSeguro",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+    	"phpunit/phpunit":"5.1.*",
+    	"squizlabs/php_codesniffer":"2.5.*"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"WebDevBr\\PagSeguro\\":"src"
+    	}
+    }
+}
